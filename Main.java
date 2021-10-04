@@ -12,7 +12,7 @@ public class Main {
         }
 
         //Ends the program if there is no argument given
-        if(args[0] == null){
+        if(args[0].length == 0){
             System.out.println("Type: help to get help");
             System.exit(1);
         }
